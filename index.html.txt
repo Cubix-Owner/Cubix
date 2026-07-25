@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cubix Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <img src="cubix-logo.png" alt="Cubix Logo" class="logo">
+
+        <h1>Welcome to Cubix</h1>
+        <p class="subtitle">A new way to play</p>
+
+        <form>
+            <input type="text" placeholder="Username" class="input">
+            <input type="password" placeholder="Password" class="input">
+            <button type="button" class="login-btn">Login</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
